@@ -15,7 +15,7 @@ my_Label.grid(row=0,column=0)
 
 
 
-button_exit=Button(root,text='Exit Program',command=root.quit)
+button_exit=Button(root,text='Exit',command=root.quit)
 button_exit.grid(row=1,column=0)    
 
 root.mainloop()
